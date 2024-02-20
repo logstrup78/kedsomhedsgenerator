@@ -38,7 +38,11 @@ button{
     height: 300px;
     width: 300px;
     border-radius: 100%;
-    background-color: red;
+    background: hsl(340deg 100% 32%);
+    border: none;
+    padding: 0;
+    cursor: pointer;
+    outline-offset: 4px;
     
 }
 
