@@ -22,5 +22,5 @@ function klik() {
         setTimeout(() => {
             kedsomhedsknap.style.display = 'block';
         }, 1000);
-    }, 5000);
+    }, 4000);
 };
