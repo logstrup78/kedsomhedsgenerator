@@ -32,14 +32,14 @@ p{
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 400px;
 }
 
 button{
     height: 300px;
     width: 300px;
     border-radius: 100%;
-    background: yellow;
+    background: red;
     border: none;
     padding: 0;
     cursor: pointer;
