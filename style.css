@@ -1,6 +1,9 @@
 *{
     background-color: black;
-    height: 100vh;
+}
+
+html body{
+    height: 100%;
 }
 
 #container{
@@ -16,6 +19,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-bottom: 100px;
 }
 
 h1{
@@ -39,12 +43,19 @@ button{
     height: 300px;
     width: 300px;
     border-radius: 100%;
-    background-color: red;
+    background: radial-gradient(rgb(245, 135, 135), red );
     border: none;
     padding: 0;
     cursor: pointer;
-    outline-offset: 4px;
+    box-shadow: 5px 5px #8b2020;
     
+  
+    
+}
+
+button:active{
+    box-shadow: 1px 1px rgb(48, 3, 3);
+    transform: translateY(6px) translateX(4px);
 }
 
 #result{
