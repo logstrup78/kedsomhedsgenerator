@@ -1,5 +1,5 @@
 *{
-    background-color: black;
+    background-color: rgb(27, 27, 27);
 }
 
 html body{
@@ -19,7 +19,7 @@ html body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-bottom: 100px;
+    margin-bottom: 50px;
 }
 
 h1{
